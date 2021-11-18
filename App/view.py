@@ -31,6 +31,7 @@ import threading
 from App import controller
 from DISClib.ADT import stack
 assert config
+import time
 
 """
 La vista se encarga de la interacción con el usuario.
@@ -44,7 +45,7 @@ operación seleccionada.
 # ___________________________________________________
 
 
-servicefile = 'bus_routes_14000.csv'
+servicefile = 'bus_routes_50.csv'
 initialStation = None
 
 # ___________________________________________________
